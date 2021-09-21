@@ -1,0 +1,6 @@
+import matplotlib
+import matplotlib.pyplot as pt
+import numpy as np
+pos=np.arange(6)+0.5
+pt.barh(pos,(4,8,12,3,17,6),align='center', color='red')
+pt.show()
